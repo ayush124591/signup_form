@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
+
+
+
+input:focus{
+    background-color: whitesmoke;
+}
+
 .thebtn{
  margin-top : 130px; 
  font-size: 1.7rem;
  border-radius : 6px;
  margin-left: 15px;
+ background-color: #04d9ff ;
+
 }
+
+
 .right{
     background-color: antiquewhite;
 }
@@ -70,8 +81,11 @@ label,input{
 
    .left {
     flex : 4;
+    background-color: #39ff14;
     background-image: url("../assets/tokyo_by_night.jpg");
+    opacity: 0.8;
    }
+   
    .right{
     flex : 7;
     display: flex;
