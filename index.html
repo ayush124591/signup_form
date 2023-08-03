@@ -4,18 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-       body{
-        height: 99.8vh;
-        width : 99.8vw;
-     
-        margin : 0 auto;
-       }
-    </style>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="this">
+    <div class="left" id="thisleft">
 
+    </div>
+    <div class="right">
+        <div class="upper">
+            <div class="maintext">This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!
+            </div>
+        <div class="prompttext">sign up <bold><em>now</em></bold> to get started.</div>
+        <br>
+        <br>
+        <div class="lowertext">
+            you <bold><em>know</em> </bold>you want to 
+        </div>
+        </div>
+        <div class="middle">
+            <h1>Let's do this!</h1>
+            <form action="https://github.com/ayush124591" method="post" id="thisform">
+            
+                    <div class="fupper">
+                        <div class="firstname">
+                            <label for="fname">First Name:</label>
+                            <input type="text" id="fname" minlength="3" required>
+                        </div>
+                        <div class="lastname">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" id="lname">
+                        </div>
+                    </div>
+                    <div class="fmiddle">
+                        <div class="email">
+                            <label for="usremail">Email:</label>
+                            <input type="email" id="usremail" required>
+                        </div>
+                        <div class="phonenumber">
+                            <label for="usrnum">Phone Number:</label>
+                            <input type="text" id="usrnum"  pattern="[0-9]{9,10}"  required>
+                        </div>
+                    </div>
+                    <div class="flower">
+                        <div class="password">
+                            <label for="usrpass">Password</label>
+                            <input type="password" id="usrpass">
+                        </div>
+                        <div class="confirmpassword">
+                            <label for="cusrpass">Confirm Password:</label>
+                            <input type="password" id="cusrpass">
+                        </div>
+                    </div>
+        
+            </form>
+
+        </div>
+        <div class="lower">
+         <button form="thisform" class="thebtn">Submit</button>
+         <br><br>
+         <div class="asklogin">
+            Already have an account ?
+            <a href="#"><em>login</em></a>
+            instead 
+         </div>
+        </div>
     </div>
 </body>
 </html>

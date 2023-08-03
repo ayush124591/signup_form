@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.thebtn{
+ margin-top : 130px; 
+ font-size: 1.7rem;
+ border-radius : 6px;
+ margin-left: 15px;
+}
+.right{
+    background-color: antiquewhite;
+}
+#thisform{
+    background-color: white;
+    box-shadow: 5px 5px 10px brown;
+}
+
+form{
+    display : flex;
+    flex-direction : column ;
+    height: 100%;
+    width:94%;
+    padding:10px;
+}
+.fupper,.fmiddle,.flower{
+    flex : 1;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.flower{
+    padding: 0px;
+    height: 50px;
+}
+.firstname,.lastname,
+.email,.phonenumber,
+.password,.confirmpassword{
+    flex : 1;
+ 
+}
+label,input{
+    font-size:calc(0.2vh + 20px) ;
+    display: block;
+    font-family: monospace;
+}
+.middle h1{
+    padding-left : 1.5%;
+}
+
+.maintext{
+    padding-left: 10px;
+    padding-top:20px;
+    font-size: 2rem;
+    font-weight: bold ;
+    font-family: "Poppins" ;
+   }
+.prompttext,.lowertext{
+    font-family : "Poppins";
+    font-weight: 600;
+    font-size:1.6rem;
+}
+
+
+   body{
+    height: 100vh;
+    width : 100vw;
+    margin : 0 auto;
+    display : flex ;
+    flex-direction: row;
+   }
+
+   .left {
+    flex : 4;
+    background-image: url("../assets/tokyo_by_night.jpg");
+   }
+   .right{
+    flex : 7;
+    display: flex;
+    flex-direction: column;
+   }
+   .upper{
+    flex:1;
+   }
+   .middle{
+    flex:3;
+ 
+ 
+   }
+   .lower{
+    flex : 2;
+   }
+   .asklogin{
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+   }
+
